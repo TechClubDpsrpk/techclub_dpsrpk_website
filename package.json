@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "firebase": "^11.7.1",
+    "firebase-tools": "^14.3.0",
     "next": "^14.2.26",
     "nodemailer": "^6.10.1",
     "react": "^18",
