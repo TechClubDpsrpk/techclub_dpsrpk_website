@@ -1,68 +1,74 @@
-@import "@fontsource/league-gothic";
+/*@import "@fontsource/league-gothic";*/
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
 
 .about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    margin-top: 0;
-    border-radius: 24px;
-    background: #343435;
-    height: 90vh;
-    background-image: url("../images/bg.png");
-    background-position: top right;
-    background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  margin-top: 0;
+  border-radius: 24px;
+  background: #343435;
+  height: auto;
+  background-image: url("../images/bg.png");
+  background-position: top right;
+  background-size: cover;
 }
 
-.main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: center; */
-    margin: 20px;
-    margin-top: 0;
-    border-radius: 24px;
-    height: 90vh;
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  margin: 20px;
+  margin-top: 0;
+  border-radius: 24px;
+  height: 90vh;
 }
 
 .description {
-    font-size: 1.5rem;
-    font-weight: 300;
-    color: #fff;
-    text-align: center;
-    margin-bottom: 1rem;
-    width: 60vw;
-    font-family: "inter";
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1rem;
+  width: 65vw;
+  font-family: "inter";
 }
 
 .quote {
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: #fff;
-    text-align: center;
-    margin: 2rem;
-    margin-bottom: 1rem;
-    width: 43vw;
-    margin-top: 4rem;
-    font-family: "inter";
-    font-style: italic;
+  font-size: 0.97rem;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  margin: 2rem;
+  margin-bottom: 0.5rem;
+  width: 50vw;
+  margin-top: 4rem;
+  font-family: "inter";
+  font-style: italic;
 }
 
 .quoteName {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #fff;
-    text-align: center;
-    margin: 20px;
-    width: 50vw;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin: 20px;
+  width: 50vw;
 }
 
 .title {
-    font-size: 8rem;
-    font-weight: 900;
-    color: #F9CA24;
-    text-align: center;
-    margin: 20px;
-    width: 50vw;
-    font-family: "League Gothic", sans-serif;
+  font-size: 6.2rem;
+  font-weight: 900;
+  color: #f9ca24;
+  text-align: center;
+  margin: 20px;
+  margin-top: 30px;
+  width: 50vw;
+  font-family: "League Gothic", sans-serif;
+}
+
+.footer {
+  height: 83px;
 }
