@@ -1,7 +1,7 @@
 import React from "react";
 
-const regisPage = () => {
+const page = () => {
   return <div className="main"></div>;
 };
 
-export default regisPage;
+export default page;
